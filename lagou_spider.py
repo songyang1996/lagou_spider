@@ -24,7 +24,7 @@ class LagouSpider(object):
         # post参数
         params = {
             "px": "default",
-            "city": "北京",
+            "city": self.city,
             "needAddtonalResult": "false",
             "isSchoolJob": "0",
         }
